@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta http-equiv="cache-control" content="no-cache"> <!-- tells browser not to cache -->
+    <meta http-equiv="expires" content="0"> <!-- says that the cache expires 'now' -->
+    <meta http-equiv="pragma" content="no-cache"> <!-- says not to use cached stuff, if there is any -->
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+	<meta name="description" content="" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<title>NosTory</title>
+	
+	<link rel="icon" href="?????????????????" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="?????????????????" />
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+    
+
+</head>
+
+<body id="root" class="isLoading">
+	<div class="site_wrapper">
+		<div class="main_border_left"></div>
+		<div class="main_border_right"></div>
+		<div class="nav" id="scroll">
+            <ul id="scrollNav" class=" selected_section_0">
+                <li id='scroll1' class="active">
+                    <span></span>
+                </li>
+                <li id='scroll2'>
+                    <span></span>
+                </li>
+                <li id='scroll3'>
+                    <span></span>
+                </li>
+                <li id='scroll4'>
+                    <span></span>
+                </li>
+                <li id='scroll5'>
+                    <span></span>
+                </li>
+                <li id='scroll6'>
+                    <span></span>
+                </li>
+                <li id='scroll7'>
+                    <span></span>
+                </li>
+            </ul>
+		</div>
+		<script type="text/javascript">
+			function isTouchDevice() {
+			    return true == ("ontouchstart" in window || window.DocumentTouch && document instanceof DocumentTouch);
+			}
+
+			if (isTouchDevice() === true) {
+			    document.getElementById('scroll').className='touch';
+			}
+
+		</script>
+
 
